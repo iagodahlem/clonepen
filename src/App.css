@@ -1,28 +1,33 @@
+:root {
+  --white: #fff;
+  --dark: #201f1f;
+  --light: #292828;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Editor {
+  display: flex;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.Editor textarea {
+  flex: 1;
+  height: 50vh;
+  background-color: var(--dark);
+  border: 1px solid var(--light);
+  resize: none;
+  outline: none;
+  padding: 1.4rem 1.8rem;
+  color: var(--white);
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Preview {
+  width: 100%;
+  height: 50vh;
+  border: none;
 }

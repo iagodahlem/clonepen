@@ -1,18 +1,6 @@
 # livecode
 
-> TODO: Write a project description
-
-## Requirements
-
-> TODO: Describe the requirements
-
-## Install
-
-> TODO: Describe the installation process
-
-## Usage
-
-> TODO: Write usage instructions
+Simple live code editor.
 
 ## Contributing
 
