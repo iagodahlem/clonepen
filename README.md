@@ -1,5 +1,7 @@
 # livecode
 
+[![Build Status](https://travis-ci.org/iagodahlem/livecode.svg?branch=master)](https://travis-ci.org/iagodahlem/livecode)
+
 Simple live code editor.
 
 ## Contributing
