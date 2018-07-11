@@ -1,8 +1,8 @@
 {
-  "name": "livecode",
+  "name": "clonepen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://iagodahlem.github.io/livecode",
+  "homepage": "https://iagodahlem.github.io/clonepen",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",

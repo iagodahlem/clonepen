@@ -1,8 +1,8 @@
-# livecode
+# clonepen
 
-[![Build Status](https://travis-ci.org/iagodahlem/livecode.svg?branch=master)](https://travis-ci.org/iagodahlem/livecode)
+[![Build Status](https://travis-ci.org/iagodahlem/clonepen.svg?branch=master)](https://travis-ci.org/iagodahlem/clonepen)
 
-Simple live code editor.
+Simple Codepen clone.
 
 ## Contributing
 
