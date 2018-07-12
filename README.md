@@ -4,6 +4,10 @@
 
 Simple Codepen clone.
 
+## Credits
+
+Based on a [post](https://willianjusten.com.br/criando-um-codepen-simples-em-poucas-linhas/) by Willian Justen.
+
 ## Contributing
 
 1. Fork it!
