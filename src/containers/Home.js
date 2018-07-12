@@ -23,7 +23,6 @@ class Home extends PureComponent {
     pensRepository
       .del(id)
       .then(pens => this.setState({ pens }))
-      .then(() => console.log('pens', this.state.pens))
   }
 
   render() {
