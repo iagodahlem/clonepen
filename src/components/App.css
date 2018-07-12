@@ -1,0 +1,91 @@
+/* ====================================================================
+ * App
+ * ==================================================================== */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+ * Header
+ * ==================================================================== */
+
+.App__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  height: 6rem;
+  padding: 0 var(--gutter);
+  background-color: var(--black);
+}
+
+.App__title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.App__title a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.App__nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.App__nav a {
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+
+/*
+ * Content
+ * ==================================================================== */
+
+.App__content {
+  flex: 1;
+}
+
+/*
+ * Footer
+ * ==================================================================== */
+
+.App__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  height: 3.8rem;
+  background-color: var(--light);
+}
+
+.App__footer p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--white);
+  opacity: .8;
+}
+
+.App__footer .heart {
+  color: red;
+}
+
+.App__footer a {
+  color: var(--white);
+  transition: opacity .1s ease-in-out;
+}
+
+.App__footer a:hover {
+  opacity: .6;
+}

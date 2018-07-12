@@ -1,0 +1,15 @@
+.Editor {
+  display: flex;
+  height: 50%;
+}
+
+.Editor textarea {
+  flex: 1;
+  height: 100%;
+  padding: 1.4rem 1.8rem;
+  border: 1px solid var(--light);
+  background-color: var(--dark);
+  color: #b2bec3;
+  resize: none;
+  outline: none;
+}

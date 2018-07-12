@@ -1,3 +1,14 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --light: #292828;
+  --dark: #201f1f;
+  --gray1: #191a1d;
+  --gray2: #32333b;
+
+  --gutter: 1.8rem;
+}
+
 *,
 *::before,
 *::after {
@@ -11,12 +22,18 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  background-color: var(--gray1);
+  color: var(--white);
 }
 
 html,
 body,
 #root {
   height: 100%;
+}
+
+a {
+  color: var(--white);
 }
