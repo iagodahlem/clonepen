@@ -1,0 +1,7 @@
+.Preview {
+  display: block;
+  width: 100%;
+  height: 50%;
+  border: none;
+  background-color: var(--white);
+}

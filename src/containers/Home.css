@@ -1,0 +1,16 @@
+/* ====================================================================
+ * Home
+ * ==================================================================== */
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  padding: 3.8rem var(--gutter) calc(var(--gutter) * 2);
+}
+
+.Home__title {
+  margin-top: 0;
+  margin-bottom: 2.2rem;
+  color: var(--white);
+  font-weight: 600;
+}
